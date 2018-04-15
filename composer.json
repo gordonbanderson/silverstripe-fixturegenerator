@@ -18,7 +18,8 @@
     },
     "require-dev": {
         "silverstripe/framework": "~4",
-        "symfony/class-loader": "^3.4"
+        "symfony/class-loader": "^3.4",
+        "silverstripe/upgrader": "^1.0"
     },
     "extra": {
         "installer-paths": {

@@ -110,7 +110,6 @@ class Generator
                     if ($items instanceof IteratorAggregate && count($items) > 0) {
                         // Loops of each dataobject
                         foreach ($items as $hasMany) {
-
                             $relClassName = $hasMany->ClassName;
 
                             // Only process it if it exists

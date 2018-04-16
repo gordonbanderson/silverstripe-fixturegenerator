@@ -1,5 +1,7 @@
 <?php
 
+use SilverStripe\ORM\DataObject;
+
 class TestHasManyDataObject extends DataObject
 {
     public function has_many($component = null, $classOnly = true)

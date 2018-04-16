@@ -5,7 +5,6 @@ namespace Camspiers\SilverStripe\FixtureGenerator;
 use Camspiers\SilverStripe\FixtureGenerator\Dumpers\DataArray;
 use SilverStripe\ORM\DataObject;
 
-
 class GeneratorTest extends \PHPUnit_Framework_TestCase
 {
     protected $dumperStub;

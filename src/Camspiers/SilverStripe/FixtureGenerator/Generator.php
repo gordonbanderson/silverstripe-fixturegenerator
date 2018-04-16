@@ -2,8 +2,8 @@
 
 namespace Camspiers\SilverStripe\FixtureGenerator;
 
-use DataObject;
 use IteratorAggregate;
+use SilverStripe\ORM\DataObject;
 
 /**
  * Class Generator

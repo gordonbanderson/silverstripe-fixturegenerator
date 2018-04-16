@@ -1,6 +1,8 @@
 <?php
 
-class TestHasOneDataObject extends \DataObject
+use SilverStripe\ORM\DataObject;
+
+class TestHasOneDataObject extends DataObject
 {
     public function has_one($component = null)
     {
